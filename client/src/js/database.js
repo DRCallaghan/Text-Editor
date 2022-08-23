@@ -32,7 +32,6 @@ export const getDb = async () => {
   const request = store.getAll();
   const result = await request;
   console.log("Saved to the database!", result);
-  return result;
-};
+}
 
 initdb();
